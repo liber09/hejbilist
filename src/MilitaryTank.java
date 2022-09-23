@@ -1,9 +1,7 @@
 public class MilitaryTank extends Vehicle {
-    String milesLeft;
-    public MilitaryTank(String milesLeft){
-        super("MilitaryTank");
-        this.milesLeft = milesLeft;
-
+    public MilitaryTank(){
+        super("tank",25,2000,5);
+        System.out.println("Tank created "+milesLeft+" miles to go!");
     }
 
 }
